@@ -1,0 +1,10 @@
+
+<div class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+<?php if ($this->headline): ?>
+
+<<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+<?php endif; ?>
+
+<a href="<?php echo $this->href; ?>" rel="nofollow" title="<?php echo $this->pdfTitle; ?>"><img src="<?php echo TL_FILES_URL; ?>assets/contao/images/pdf.gif" width="16" height="16" alt=""></a>
+
+</div>
